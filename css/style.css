@@ -241,6 +241,85 @@ a {
   margin: 12px 0;
 }
 
-.advantages-box__images {
+.reviews {
+  background-image: url(../images/reviews-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 38px 0 82px;
 }
 
+.reviews__title {
+  max-width: 384px;
+  color: #fff;
+  margin: 0 auto 48px;
+}
+
+.reviews__items {
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews__item {
+  width: 300px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .2);
+  padding: 35px 20px;
+  color: #fff;
+}
+
+.reviews__iten-head {
+  margin-bottom: 13px;
+  display: flex;
+}
+
+.reviews__iten-head img {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.reviews__item__item-info {
+}
+
+.reviews__itame-name {
+  font-weight: 600;
+}
+
+.reviews__item-position {
+  opacity: 0.5;
+}
+
+.teviews__item-text {
+  text-align: center;
+  padding-top: 39px;
+  position: relative;
+}
+
+.teviews__item-text::before {
+  content: "“";
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer {
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 61px;
+  color: #272727;
+  padding: 0 40px;
+}
+
+.footer__link a + a{
+  margin-left: 20px;
+}
